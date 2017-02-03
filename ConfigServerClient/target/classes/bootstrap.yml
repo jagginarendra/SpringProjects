@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: myconfigserverclient
+  cloud:
+    config:
+      uri: http://localhost:4005
+
+server:
+  port: 8001
+  
+  
+  
+  
+ 
+    
+    
+    
+    
+  
+  
+
+
