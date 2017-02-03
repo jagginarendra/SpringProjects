@@ -1,6 +1,7 @@
 server:
   port: 4005
   
+  message : Hello world
   
  spring:
   application:
