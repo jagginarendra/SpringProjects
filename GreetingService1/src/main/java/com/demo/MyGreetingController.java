@@ -1,0 +1,16 @@
+package com.demo;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyGreetingController {
+
+	@RequestMapping("/greeting/{username}")
+	public String getGreetingMessage(@PathVariable String username) {
+
+		return "hello " + username;
+	}
+
+}

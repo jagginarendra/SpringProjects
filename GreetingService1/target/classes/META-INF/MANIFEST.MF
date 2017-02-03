@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: GreetingService1
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: nkum95
+Implementation-Vendor-Id: com.client
+Build-Jdk: 1.8.0_25
+Implementation-URL: http://projects.spring.io/spring-boot/GreetingServ
+ ice1/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

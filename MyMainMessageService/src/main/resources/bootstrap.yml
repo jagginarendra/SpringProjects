@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: mymainService
+
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.value} 
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:4001/eureka/
+server:
+  port: 0
+      
+   
+    
+  
+  
+
+
